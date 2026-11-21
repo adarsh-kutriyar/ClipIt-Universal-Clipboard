@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/ic_clipit_mark.xml : the app icon as a small in-app logo (header of HomeScreen) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:pathData="M26,0H74A26,26 0 0 1 100,26V74A26,26 0 0 1 74,100H26A26,26 0 0 1 0,74V26A26,26 0 0 1 26,0Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="50" android:startY="0"
+                android:endX="50" android:endY="100"
+                android:type="linear">
+                <item android:color="#F5F7FA" android:offset="0.0"/>
+                <item android:color="#DCE1E9" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <group
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:translateX="15"
+        android:translateY="15">
+        <path
+            android:pathData="M64,31V28A8,8 0 0 0 56,20H30A8,8 0 0 0 22,28V62A8,8 0 0 0 30,70H33"
+            android:strokeColor="#20242B"
+            android:strokeWidth="5"
+            android:strokeLineJoin="round"/>
+        <path
+            android:pathData="M46,36H72A8,8 0 0 1 80,44V74A8,8 0 0 1 72,82H46A8,8 0 0 1 38,74V44A8,8 0 0 1 46,36Z"
+            android:fillColor="#5E6AD2"/>
+        <path
+            android:pathData="M47,54H71M47,65H62"
+            android:strokeColor="#F6F7FB"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"/>
+    </group>
+</vector>

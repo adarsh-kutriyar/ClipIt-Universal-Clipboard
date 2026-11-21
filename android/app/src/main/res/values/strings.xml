@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ClipIt</string>
+    <string name="tile_name">ClipIt Sync</string>
+    <string name="accessibility_service_label">ClipIt Clipboard Sync</string>
+    <string name="accessibility_service_description">Allows ClipIt to seamlessly detect when you copy or cut text in any app, instantly syncing it to your Mac over Bluetooth without requiring ADB or terminal commands.</string>
+</resources>
